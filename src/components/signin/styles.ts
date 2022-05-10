@@ -4,9 +4,14 @@ export const SignInContainer = styled.View`
     width: 70%;
     height: 50%;
     border-radius: 15;
-    background-color: #505b6b;
     align-items: center;
     justify-content: center;
+    
+`;
+
+export const SignInForm = styled.View`
+    width: 90%;
+    border-radius: 15;
 `;
 
 export const EmailInput = styled.TextInput`
@@ -27,4 +32,36 @@ export const PasswordInput = styled.TextInput`
 export const SignInButton = styled.TouchableOpacity`
     width: 90%;
     height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    align-items: center;
+    background-color: blue;
+    margin-bottom: 10px;
+`
+
+export const TextSignIn = styled.Text`
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px
+`
+
+export const PrimaryText = styled.Text`
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+`
+export const SecondaryText = styled.Text`
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+`
+export const SignUpButton = styled.TouchableOpacity`
+    width: 90%;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    align-items: center;
+    background-color: gray;
+    margin-bottom: 10px;
+    border: blue;
 `
